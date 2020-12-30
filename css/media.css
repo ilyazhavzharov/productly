@@ -1,3 +1,30 @@
+@media (max-width: 1240px) {
+	.team__item-4 {
+		left: 275px;
+	}
+}
+
+@media (max-width: 1174px) {
+	.slider__item-img {
+		width: 100%;
+		height: 250px;
+	}
+
+	.slider {
+		margin: 0;
+	}
+
+	.slider__item {
+		padding: 10px;
+	}
+}
+
+@media (max-width: 1240px) {
+	.team__item-5 {
+		bottom: 100px;
+	}
+}
+
 @media (max-width: 992px) {
 	.header__inner {
 		flex-wrap: wrap;
@@ -14,6 +41,54 @@
 		justify-content: flex-end;
 		padding-top: 30px;
 	}
+
+	.top__inner {
+		background-image: none;
+	}
+
+	.tools__items {
+		flex-wrap: wrap;
+	}
+
+	.tools__item {
+		width: 50%;
+		margin-bottom: 30px;
+		padding-right: 10px;
+	}
+
+	.diraction__item-img {
+		width: 40%;
+	}
+}
+
+@media (max-width: 860px) {
+	.diraction__item-img {
+		width: 80%;
+		margin: 0 auto 30px;
+		order: -1;
+	}
+
+	.diraction__item {
+		flex-wrap: wrap;
+	}
+
+	.diraction__item-content {
+		max-width: 100%;
+	}
+
+	.team__item {
+		display: none;
+	}
+
+	.team__inner {
+		padding: 80px 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.top__inner {
+		padding: 80px 0 60px;
+	}
 }
 
 @media (max-width: 524px) {
@@ -21,7 +96,80 @@
 		display: block;
 	}
 
+	.menu {
+
+	}
+
 	.menu__list {
-		display: none;
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		background-color: white;
+		text-align: center; 
+		transform: translateY(-300%); 
+		cursor: pointer;
+	}
+
+	.menu__list-link {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.menu__btn {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+
+	.user-nav {
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.menu__list-item + .menu__list-item {
+		margin-left: 0;
+	}
+
+	.menu__list.active {
+		transform: translateY(0%);
+	}
+
+	.top__tittle {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.top__text {
+		font-size: 16px;
+		max-width: 307px;
+	}
+
+	.top__btn {
+		margin-bottom: 25px;
+	}
+
+	.tools__item {
+		width: 100%;
+	}
+
+	.tools__title,
+	.diraction__item-title,
+	.team__title,
+	.blog__tittle {
+		max-width: 662px;
+		font-size: 27px;
+		line-height: 40px;
+	}
+
+	.diraction__item-title {
+		margin-bottom: 40px;
+	}
+
+	.slider__item {
+		padding: 0;
 	}
 }

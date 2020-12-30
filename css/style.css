@@ -576,3 +576,38 @@ button {
 	background-color: #FFB64A;
 	transition: 0.5s;
 }
+
+.menu__btn {
+	width: 40px;
+	height: 30px;
+	display: none;
+	cursor: pointer;
+}
+
+.menu__btn span {
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	left: 0px;
+	top: 14px;
+}
+
+.menu__btn::before,
+.menu__btn::after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background-color: #000;
+	left: 0;
+}
+
+.menu__btn::before {
+	top: 0;
+}
+
+.menu__btn::after {
+	bottom: 0;`
+}
