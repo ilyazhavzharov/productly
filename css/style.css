@@ -525,6 +525,7 @@ button {
 	font-size: 20px;
 	line-height: 30px;
 	color: #2f281e;
+	font-weight: 400;
 }
 
 .footer__list {
@@ -610,4 +611,9 @@ button {
 
 .menu__btn::after {
 	bottom: 0;`
+}
+
+.portfolio{
+    text-align: center;
+    padding-bottom: 20px;
 }
